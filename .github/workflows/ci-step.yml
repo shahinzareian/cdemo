@@ -27,7 +27,7 @@ jobs:
         java-version: 1.8
         
     - name: Build and test with Maven
-      run: chmod +x && ./mvnw test
+      run: chmod +x ./mvnw && ./mvnw test
        
         
         
